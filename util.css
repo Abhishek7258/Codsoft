@@ -1,0 +1,78 @@
+body{
+    background-color: darkgreen;
+    background:url(image/download.jpeg);
+    background-size: cover;
+}
+.calculator{  
+    padding: 30px;
+    max-width: 350px;
+    margin: auto;
+    border: px solid red;
+    background-color: rgba(0, 0, 0, 0.665);
+    color: white;
+    border-radius: 20px 20px;
+    margin-top: 40px;
+    border: 1px solid rgba(255, 255, 255, 0.348);
+}
+button{
+    cursor: pointer;
+}
+.calculator-screen{
+    border: 2px solid rgba(128, 128, 128, 0.392);
+    margin: auto;
+    height: 80px;
+    width: 323px;
+    padding: 10px;
+    font-size: 19px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 35px;
+    border-radius: 10px 10px;
+}
+.all-clear{
+    margin-left: 8px;
+    width: 228px;
+    height: 60px;
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 30px 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(200, 198, 198);
+}
+.operator{    
+    height: 60px;
+    width: 60px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: white;
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 50%;
+}
+button{
+    margin: 10px;
+    height: 60px;
+    width: 60px;
+    background: rgb(131,58,180);
+    background: rgb(42,219,202);
+background: linear-gradient(90deg, rgba(42,219,202,1) 27%, rgba(183,64,209,1) 62%, rgba(131,58,180,1) 99%, rgba(32,29,253,1) 100%, rgba(252,176,69,1) 100%);color: white;
+    font-size: 35px;
+    padding: 5px;
+    border-radius: 50%;
+    border: none;
+}
+.zero{
+    border-radius: 70px 70px;
+    height: 60px;
+    width: 140px;
+}
+button:hover{
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.operator:hover{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
